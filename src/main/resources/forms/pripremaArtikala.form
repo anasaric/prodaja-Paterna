@@ -1,0 +1,102 @@
+{
+  "components": [
+    {
+      "text": "# Priprema artikala",
+      "type": "text",
+      "layout": {
+        "row": "Row_0jg301x",
+        "columns": null
+      },
+      "id": "Field_0npa0p9"
+    },
+    {
+      "label": "Ime i prezime kupca",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_02cozu0",
+        "columns": null
+      },
+      "id": "Field_16sld9y",
+      "key": "imePrezimeKupca"
+    },
+    {
+      "label": "Kontakt broj",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0xxbm8j",
+        "columns": null
+      },
+      "id": "Field_17vi6b9",
+      "key": "kontaktBroj"
+    },
+    {
+      "label": "Artikl 1",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0vrxi5q",
+        "columns": null
+      },
+      "id": "Field_016y8ty",
+      "key": "artikl_1"
+    },
+    {
+      "label": "Artikl 2",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0aro56r",
+        "columns": null
+      },
+      "id": "Field_15cwh71",
+      "key": "artikl_2"
+    },
+    {
+      "label": "Artikl 3",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0ljfom7",
+        "columns": null
+      },
+      "id": "Field_1u78we9",
+      "key": "artikl_3"
+    },
+    {
+      "label": "Artikl 4",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0zaxyh1",
+        "columns": null
+      },
+      "id": "Field_17hhnw7",
+      "key": "artikl_4"
+    },
+    {
+      "label": "Artikl 5",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0lcf8l7",
+        "columns": null
+      },
+      "id": "Field_0ddxa0d",
+      "key": "artikl_5"
+    },
+    {
+      "label": "Ukupna cijena",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1hxzgp0",
+        "columns": null
+      },
+      "id": "Field_069x53u",
+      "key": "ukupnoNakonPopusta"
+    }
+  ],
+  "type": "default",
+  "id": "pripremaArtikala",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.34.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.23.0",
+  "schemaVersion": 18
+}

@@ -1,0 +1,52 @@
+{
+  "components": [
+    {
+      "text": "# Način plaćanja",
+      "type": "text",
+      "layout": {
+        "row": "Row_07wxlbx",
+        "columns": null
+      },
+      "id": "Field_0qjkf8d"
+    },
+    {
+      "label": "Način plaćanja",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_06wrvto",
+        "columns": null
+      },
+      "id": "Field_0jmndo0",
+      "key": "nacinPlacanja"
+    },
+    {
+      "label": "Plaćeno",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_15z1jox",
+        "columns": null
+      },
+      "id": "Field_168dams",
+      "key": "placeno"
+    },
+    {
+      "label": "Ukupna cijena",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0ba822w",
+        "columns": null
+      },
+      "id": "Field_0p7kia4",
+      "key": "ukupnoNakonPopusta"
+    }
+  ],
+  "type": "default",
+  "id": "nacinPlacanja",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.34.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.23.0",
+  "schemaVersion": 18
+}

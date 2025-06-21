@@ -1,0 +1,72 @@
+{
+  "components": [
+    {
+      "text": "# Popust za kupca",
+      "type": "text",
+      "layout": {
+        "row": "Row_10n5lh4",
+        "columns": null
+      },
+      "id": "Field_16bptc1"
+    },
+    {
+      "label": "Ime i prezime kupca",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_18aaxxb",
+        "columns": null
+      },
+      "id": "Field_1v11k1z",
+      "key": "imePrezimeKupca"
+    },
+    {
+      "label": "Adresa kupca",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1kdxixs",
+        "columns": null
+      },
+      "id": "Field_0jg0x16",
+      "key": "adresaKupca"
+    },
+    {
+      "label": "Cijena bez popusta",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_00dkh9j",
+        "columns": null
+      },
+      "id": "Field_1v6iwi7",
+      "key": "ukupnaCijena"
+    },
+    {
+      "label": "Ostvareni popust",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_134h7ww",
+        "columns": null
+      },
+      "id": "Field_1c3jn4k",
+      "key": "ostvareniPopust"
+    },
+    {
+      "label": "Ukupna cijena",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1jwhhmy",
+        "columns": null
+      },
+      "id": "Field_1m95but",
+      "key": "ukupnoNakonPopusta"
+    }
+  ],
+  "type": "default",
+  "id": "popustKupca",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.34.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.23.0",
+  "schemaVersion": 18
+}

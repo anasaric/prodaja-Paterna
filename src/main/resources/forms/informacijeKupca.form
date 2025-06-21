@@ -1,0 +1,62 @@
+{
+  "components": [
+    {
+      "text": "# Informacije o kupcu",
+      "type": "text",
+      "layout": {
+        "row": "Row_12n21kn",
+        "columns": null
+      },
+      "id": "Field_11zkecr"
+    },
+    {
+      "label": "Ime i prezime kupca",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_11cakkm",
+        "columns": null
+      },
+      "id": "Field_1jpiijt",
+      "key": "imePrezimeKupca"
+    },
+    {
+      "label": "Opis kupca",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0pi49te",
+        "columns": null
+      },
+      "id": "Field_1vi0e8w",
+      "key": "opisKupca"
+    },
+    {
+      "label": "Popust na kupovinu",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1oh0gz3",
+        "columns": null
+      },
+      "id": "Field_000ungy",
+      "key": "ostvareniPopust"
+    },
+    {
+      "label": "Odgoda plaćanja",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_08eo19g",
+        "columns": null
+      },
+      "id": "Field_1plaizh",
+      "key": "odgodaPlacanja"
+    }
+  ],
+  "type": "default",
+  "id": "informacijeKupca",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.34.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.23.0",
+  "schemaVersion": 18
+}

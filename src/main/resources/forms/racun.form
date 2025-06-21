@@ -1,0 +1,152 @@
+{
+  "components": [
+    {
+      "text": "# Račun",
+      "type": "text",
+      "layout": {
+        "row": "Row_135y5v6",
+        "columns": null
+      },
+      "id": "Field_0pz05ki"
+    },
+    {
+      "label": "Ime i prezime kupca",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0fueckz",
+        "columns": null
+      },
+      "id": "Field_1578m4y",
+      "key": "imePrezimeKupca"
+    },
+    {
+      "label": "Adresa kupca",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1undlqj",
+        "columns": null
+      },
+      "id": "Field_18dgijm",
+      "key": "adresaKupca"
+    },
+    {
+      "label": "Artikl - 1",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_10g7p3r",
+        "columns": null
+      },
+      "id": "Field_1xra1xo",
+      "key": "artikl_racun_1"
+    },
+    {
+      "label": "Artikl - 2",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0xxshcw",
+        "columns": null
+      },
+      "id": "Field_12dxybh",
+      "key": "artikl_racun_2"
+    },
+    {
+      "label": "Artikl - 3",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0zaxdaz",
+        "columns": null
+      },
+      "id": "Field_0fgu298",
+      "key": "artikl_racun_3"
+    },
+    {
+      "label": "Artikl - 4",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0qlps5l",
+        "columns": null
+      },
+      "id": "Field_0lagzdw",
+      "key": "artikl_racun_4"
+    },
+    {
+      "label": "Artikl - 5",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1bmmief",
+        "columns": null
+      },
+      "id": "Field_0a33inp",
+      "key": "artikl_racun_5"
+    },
+    {
+      "label": "Ukupno bez PDVa",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0icfldx",
+        "columns": null
+      },
+      "id": "Field_06gic8b",
+      "key": "cijenaBezPDV"
+    },
+    {
+      "label": "pdv",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1x0gpgy",
+        "columns": null
+      },
+      "id": "Field_03zyuea",
+      "key": "iznosPDV"
+    },
+    {
+      "label": "Ukupno",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0umk1zd",
+        "columns": null
+      },
+      "id": "Field_0q9ydye",
+      "key": "ukupnoNakonPopusta"
+    },
+    {
+      "label": "Datum plaćanja",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1fg948l",
+        "columns": null
+      },
+      "id": "Field_16lmq3v",
+      "key": "datumPlacanja"
+    },
+    {
+      "label": "Način plaćanja",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0qvq9au",
+        "columns": null
+      },
+      "id": "Field_0ndod6f",
+      "key": "nacinPlacanja"
+    },
+    {
+      "label": "Plaćeno",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_18micjp",
+        "columns": null
+      },
+      "id": "Field_1k45kah",
+      "key": "placeno"
+    }
+  ],
+  "type": "default",
+  "id": "racun",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.34.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.23.0",
+  "schemaVersion": 18
+}

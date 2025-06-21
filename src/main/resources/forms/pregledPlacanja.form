@@ -1,0 +1,92 @@
+{
+  "components": [
+    {
+      "text": "# Odgoda plaćanja",
+      "type": "text",
+      "layout": {
+        "row": "Row_1cczrmr",
+        "columns": null
+      },
+      "id": "Field_097yalx"
+    },
+    {
+      "label": "Ime i prezime kupca",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1wlzbqk",
+        "columns": null
+      },
+      "id": "Field_0wj5i0p",
+      "key": "imePrezimeKupca"
+    },
+    {
+      "label": "Datum narudžbe",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0bx677a",
+        "columns": null
+      },
+      "id": "Field_1w1xk5h",
+      "key": "najdaljiDatumString"
+    },
+    {
+      "label": "Ukupna cijena",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1cocypt",
+        "columns": null
+      },
+      "id": "Field_0yts4eu",
+      "key": "ukupnoNakonPopusta"
+    },
+    {
+      "label": "Način plaćanja",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_051fvdh",
+        "columns": null
+      },
+      "id": "Field_1cjqovl",
+      "key": "nacinPlacanja"
+    },
+    {
+      "label": "Plaćeno",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_07rob10",
+        "columns": null
+      },
+      "id": "Field_1tth9zy",
+      "key": "placeno"
+    },
+    {
+      "label": "Odgoda plaćanja",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0ycn4ng",
+        "columns": null
+      },
+      "id": "Field_1lss3a9",
+      "key": "zeliOdgoduPlacanja"
+    },
+    {
+      "label": "Omogućeni raspon odgode plaćanja",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1uapseb",
+        "columns": null
+      },
+      "id": "Field_0d6l9vy",
+      "key": "odgodaPlacanja"
+    }
+  ],
+  "type": "default",
+  "id": "pregledPlacanja",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.34.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.23.0",
+  "schemaVersion": 18
+}

@@ -1,0 +1,112 @@
+{
+  "components": [
+    {
+      "text": "# Otpremnica",
+      "type": "text",
+      "layout": {
+        "row": "Row_15512k6",
+        "columns": null
+      },
+      "id": "Field_11iwvpc"
+    },
+    {
+      "label": "Datum otpreme",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1b6f90p",
+        "columns": null
+      },
+      "id": "Field_0q73de0",
+      "key": "datumOtpreme"
+    },
+    {
+      "label": "Registracija vozila",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_19xax2r",
+        "columns": null
+      },
+      "id": "Field_0ti2igq",
+      "key": "voziloRegistracija"
+    },
+    {
+      "label": "Adresa kupca",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_11iv9p3",
+        "columns": null
+      },
+      "id": "Field_1rtbizu",
+      "key": "adresaKupca"
+    },
+    {
+      "label": "E-mail",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1hcbqbi",
+        "columns": null
+      },
+      "id": "Field_1empe63",
+      "key": "mail"
+    },
+    {
+      "label": "Artikl 1",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0x4f97c",
+        "columns": null
+      },
+      "id": "Field_0ybh3mn",
+      "key": "artikl_1"
+    },
+    {
+      "label": "Artikl 2",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0sf6tsf",
+        "columns": null
+      },
+      "id": "Field_0sw80o8",
+      "key": "artikl_2"
+    },
+    {
+      "label": "Artikl 3",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0b12nig",
+        "columns": null
+      },
+      "id": "Field_1hln8id",
+      "key": "artikl_3"
+    },
+    {
+      "label": "Artikl 4",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_198tos1",
+        "columns": null
+      },
+      "id": "Field_097z3ix",
+      "key": "artikl_4"
+    },
+    {
+      "label": "Artikl 5",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1r8sekt",
+        "columns": null
+      },
+      "id": "Field_00hjcxf",
+      "key": "artikl_5"
+    }
+  ],
+  "type": "default",
+  "id": "otpremnica",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.34.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.23.0",
+  "schemaVersion": 18
+}

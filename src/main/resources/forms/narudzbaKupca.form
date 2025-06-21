@@ -1,0 +1,130 @@
+{
+  "components": [
+    {
+      "text": "# Narudžba kupca",
+      "type": "text",
+      "id": "naslovNarudzbe",
+      "layout": {
+        "row": "Row_1w6ydhg"
+      }
+    },
+    {
+      "label": "Ime kupca",
+      "type": "textfield",
+      "id": "imeKupca",
+      "key": "imeKupca",
+      "layout": {
+        "row": "Row_1s8verf"
+      },
+      "disabled": false,
+      "readonly": true
+    },
+    {
+      "label": "Prezime kupca",
+      "type": "textfield",
+      "id": "prezimeKupca",
+      "key": "prezimeKupca",
+      "layout": {
+        "row": "Row_18m3ody"
+      },
+      "disabled": false,
+      "readonly": "on"
+    },
+    {
+      "label": "Kontakt broj",
+      "type": "textfield",
+      "id": "kontaktBroj",
+      "key": "kontaktBroj",
+      "layout": {
+        "row": "Row_0pk82qb"
+      },
+      "disabled": false,
+      "readonly": true
+    },
+    {
+      "label": "Adresa kupca",
+      "type": "textfield",
+      "id": "adresaKupca",
+      "key": "adresaKupca",
+      "layout": {
+        "row": "Row_0copod2",
+        "columns": null
+      },
+      "disabled": false,
+      "readonly": "on"
+    },
+    {
+      "label": "Artikl 1",
+      "type": "textfield",
+      "key": "artikl_1",
+      "readonly": true,
+      "layout": {
+        "row": "Row_1artikl1"
+      },
+      "id": "Field_1riaw7a"
+    },
+    {
+      "label": "Artikl 2",
+      "type": "textfield",
+      "key": "artikl_2",
+      "readonly": true,
+      "layout": {
+        "row": "Row_1artikl2"
+      },
+      "id": "Field_1wmlhnf"
+    },
+    {
+      "label": "Artikl 3",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1vhshsz",
+        "columns": null
+      },
+      "id": "Field_0hg3jxz",
+      "key": "artikl_3",
+      "readonly": "on"
+    },
+    {
+      "label": "Artikl 4",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_potvrda",
+        "columns": 16
+      },
+      "id": "Field_095uq38",
+      "key": "artikl_4"
+    },
+    {
+      "label": "Artikl 5",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1r396uz",
+        "columns": 16
+      },
+      "id": "Field_0le7j79",
+      "key": "artikl_5"
+    },
+    {
+      "label": "Potvrđujem narudžbu",
+      "type": "checkbox",
+      "key": "potvrdaNarudzbe",
+      "id": "checkboxPotvrda",
+      "defaultValue": false,
+      "validate": {
+        "required": true
+      },
+      "layout": {
+        "row": "Row_0inr13w"
+      }
+    }
+  ],
+  "type": "default",
+  "id": "narudzbaKupca",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.34.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.23.0",
+  "schemaVersion": 18
+}

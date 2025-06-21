@@ -1,0 +1,42 @@
+{
+  "components": [
+    {
+      "text": "# Dostava artikala",
+      "type": "text",
+      "layout": {
+        "row": "Row_03zvq0n",
+        "columns": null
+      },
+      "id": "Field_06fi6ne"
+    },
+    {
+      "label": "Adresa kupca",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_16u0oxw",
+        "columns": null
+      },
+      "id": "Field_0d4do4w",
+      "key": "adresaKupca"
+    },
+    {
+      "label": "Dostava",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1q945nj",
+        "columns": null
+      },
+      "id": "Field_1ib0m6p",
+      "key": "zeliDostavu"
+    }
+  ],
+  "type": "default",
+  "id": "dostava",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.34.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.23.0",
+  "schemaVersion": 18
+}

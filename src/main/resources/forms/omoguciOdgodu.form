@@ -1,0 +1,72 @@
+{
+  "components": [
+    {
+      "text": "# Odrediti vremenski raspon odgode",
+      "type": "text",
+      "layout": {
+        "row": "Row_06plnax",
+        "columns": null
+      },
+      "id": "Field_0mrdrwo"
+    },
+    {
+      "label": "Ime i prezime kupca",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_16n51dg",
+        "columns": null
+      },
+      "id": "Field_1fp7kl0",
+      "key": "imePrezimeKupca"
+    },
+    {
+      "label": "Datum narudžbe",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_07jjhdo",
+        "columns": null
+      },
+      "id": "Field_1gkzg0x",
+      "key": "najdaljiDatumString"
+    },
+    {
+      "label": "Ukupna cijena",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0zur2g4",
+        "columns": null
+      },
+      "id": "Field_06kv8sn",
+      "key": "ukupnoNakonPopusta"
+    },
+    {
+      "label": "Odgoda plaćanja",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1aom3se",
+        "columns": null
+      },
+      "id": "Field_0ljhuc5",
+      "key": "odgodaPlacanja"
+    },
+    {
+      "label": "Krajnji datum plaćanja",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1c1vl8s",
+        "columns": null
+      },
+      "id": "Field_06el2ra",
+      "key": "datumPlacanja"
+    }
+  ],
+  "type": "default",
+  "id": "omoguciOdgodu",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.34.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.23.0",
+  "schemaVersion": 18
+}

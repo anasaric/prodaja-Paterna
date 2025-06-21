@@ -1,0 +1,22 @@
+{
+  "components": [
+    {
+      "text": "# Uspješno zatvorena narudžba",
+      "type": "text",
+      "layout": {
+        "row": "Row_0c0jk68",
+        "columns": null
+      },
+      "id": "Field_1k0syw3"
+    }
+  ],
+  "type": "default",
+  "id": "zatvaranjeNarudzbe",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.34.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.23.0",
+  "schemaVersion": 18
+}

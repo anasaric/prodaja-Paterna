@@ -1,0 +1,82 @@
+{
+  "components": [
+    {
+      "text": "# Uspješno preuzimanje artikala",
+      "type": "text",
+      "layout": {
+        "row": "Row_01qi80i",
+        "columns": null
+      },
+      "id": "Field_1qg60nu"
+    },
+    {
+      "label": "Ime i prezime kupca",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0ksl5t6",
+        "columns": null
+      },
+      "id": "Field_1jtyitu",
+      "key": "imePrezimeKupca"
+    },
+    {
+      "label": "Artikl 1",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_155s3t6",
+        "columns": null
+      },
+      "id": "Field_1o1eq2y",
+      "key": "artikl_1"
+    },
+    {
+      "label": "Artikl 2",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_03vekk6",
+        "columns": null
+      },
+      "id": "Field_0kwbh8g",
+      "key": "artikl_2"
+    },
+    {
+      "label": "Artikl 3",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0qhlzib",
+        "columns": null
+      },
+      "id": "Field_1u43ojj",
+      "key": "artikl_3"
+    },
+    {
+      "label": "Artikl 4",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0kfj6qu",
+        "columns": null
+      },
+      "id": "Field_0nhgml9",
+      "key": "artikl_4"
+    },
+    {
+      "label": "Artikl 5",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0w8vmcx",
+        "columns": null
+      },
+      "id": "Field_0vgrdeq",
+      "key": "artikl_5"
+    }
+  ],
+  "type": "default",
+  "id": "uspjesnoPreuzimanjeArtikala",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.34.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.23.0",
+  "schemaVersion": 18
+}

@@ -1,0 +1,62 @@
+{
+  "components": [
+    {
+      "text": "# Datum naplate računa",
+      "type": "text",
+      "layout": {
+        "row": "Row_13p8948",
+        "columns": null
+      },
+      "id": "Field_0wgl7gk"
+    },
+    {
+      "label": "Datum dostupnosti artikala",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1jpuluj",
+        "columns": null
+      },
+      "id": "Field_0h8yd5y",
+      "key": "najdaljiDatumString"
+    },
+    {
+      "label": "Plaćanje odgođeno do:",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1s0w8rl",
+        "columns": null
+      },
+      "id": "Field_07llvtt",
+      "key": "datumPlacanja"
+    },
+    {
+      "label": "Način plaćanja",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0m8dt57",
+        "columns": null
+      },
+      "id": "Field_0zqtkwj",
+      "key": "nacinPlacanja"
+    },
+    {
+      "label": "Ukupna cijena",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1bak1tp",
+        "columns": null
+      },
+      "id": "Field_06jps83",
+      "key": "ukupnoNakonPopusta"
+    }
+  ],
+  "type": "default",
+  "id": "datumNaplate",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.34.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.23.0",
+  "schemaVersion": 18
+}

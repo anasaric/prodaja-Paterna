@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8" />
+    <title>Nova Narudžba</title>
+    <link rel="stylesheet" href="narudzbaKupca.css" />
+    <script src="izgledNarudzbe.js" defer></script>
+</head>
+<body>
+<div class="grid-container">
+    <div class="logo">
+        <img id="izmjenaSlika" src="paterna-logo.png" alt="Logo" class="logo-slika" />
+    </div>
+    <div class="narudzba">
+        <h2>Ispuni narudžbu</h2>
+        <form id="narudzbaKupca">
+            <div class="grid-container-form">
+                <div class="podatci">
+                    <input type="text" id="ime" name="ime" placeholder="Ime" required />
+                    <div id="porukaIme" class="poruka"></div>
+                    <input type="text" id="prezime" name="prezime" placeholder="Prezime" required />
+                    <div id="porukaPrezime" class="poruka"></div>
+                    <input type="text" id="kontakt" name="kontakt" placeholder="Kontakt" required />
+                    <div id="porukaKontakt" class="poruka"></div>
+                    <input type="text" id="adresa" name="adresa" placeholder="Adresa" required />
+                    <div id="porukaAdresa" class="poruka"></div>
+                    <input type="text" id="mail" name="mail" placeholder="E-mail" required />
+                    <div id="porukaMail" class="poruka"></div>
+                    <div class="dodatneOpcije">
+                        <label for="nacinPlacanja">Način plaćanja:</label>
+                        <select id="nacinPlacanja" name="nacinPlacanja" required>
+                            <option value="">-- Odaberite način plaćanja --</option>
+                            <option value="gotovina">Gotovina</option>
+                            <option value="kartično">Kartica</option>
+                        </select>
+                        <div id="porukaPlacanje" class="poruka"></div>
+                        <div>
+                            <input type="checkbox" id="zeliDostavu" name="zeliDostavu" />
+                            <label for="zeliDostavu">Želim dostavu</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="zeliOdgoduPlacanja" name="zeliOdgoduPlacanja" />
+                            <label for="zeliOdgoduPlacanja">Želim odgodu plaćanja</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="podatciArtikli">
+                    <h3>Artikli:</h3>
+                    <div id="artikliContainer">
+                        <div class="artikl">
+                            <select id="grupeSelect" name="grupa[]" required>
+                                <option disabled selected>-- Odaberite grupu --</option>
+                            </select>
+                            <select id="artikliSelect" name="artikl[]" required>
+                                <option disabled selected>-- Odaberite artikl --</option>
+                            </select>
+                            <input type="number" placeholder="Količina" name="kolicina[]" required min="1" />
+                        </div>
+                    </div>
+                    <button type="button" id="dodajArtikl">Dodaj artikl</button>
+                </div>
+            </div>
+
+            <div style="text-align: center; margin-top: 20px;">
+                <button type="submit">Pošalji narudžbu</button>
+            </div>
+        </form>
+    </div>
+</div>
+</body>
+</html>

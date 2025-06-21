@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 50px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    gap: 20px;
+    padding: 20px;
+}
+.grid-container-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+    align-items: start;
+}
+
+h2, button{
+    text-align: center;
+}
+
+.narudzba {
+    font-size: 2.1em;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: #f0f0f0;
+}
+
+#ime, #prezime, #kontakt, #adresa, #artikl, #kolicina, #mail{
+    width: 250px;
+    height: 20px;
+    padding: 8px;
+}
+
+.logo, .narudzba{
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.narudzba:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.logo-slika {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.logo img {
+    width: 100%;
+    height: 400px;
+    display: block;
+    margin: 0 auto;
+}
+
+.podatciArtikli h3 {
+    margin: 0 0 10px 0;
+}
+
+.podatci input,
+.podatciArtikli input,
+.podatciArtikli option{
+    margin-bottom: 10px;
+    text-decoration-color: black;
+}
+
+button[type="submit"] {
+    background-color: #FF6961;
+    color: white;
+    padding: 8px 12px;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #8B0000;
+    transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+    .grid-container, .grid-container-form {
+        grid-template-columns: 1fr;
+    }
+
+    .logo, .narudzba {
+        text-align: center;
+    }
+}
+
+.artikl {
+    border: 1.5px solid gray;
+    padding: 2px;
+    margin-bottom: 2px;
+    border-radius: 2px;
+    background-color: #fafafa;
+}
+
+.poruka {
+    color: red;
+    font-size: xx-small;
+}
+
+.dodatneOpcije {
+    margin-top: 30px;
+}
+
+.dodatneOpcije label,
+.dodatneOpcije select,
+.dodatneOpcije input[type="checkbox"] {
+    font-size: 12px;
+}
